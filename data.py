@@ -17,10 +17,10 @@ def return_data(sym):
         # print data['Time Series (1min)'][each]
         plot_data[each] = float(data['Time Series (1min)'][each]['1. open'])
 
-    print plot_data
+    # print plot_data
     x = plot_data.keys()
     y = plot_data.values()
-    print x
-    print y
+    # print x
+    # print y
 
-return_data('MSFT')
+    return x, y
