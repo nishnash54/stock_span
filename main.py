@@ -18,5 +18,5 @@ if __name__ == "__main__":
     num = len(y_data)
     S = [None] * num
     calculateSpan(y_data, num, S)
-    print S
+    # print S
     plot(x_data, y_data, S)
