@@ -13,7 +13,7 @@ def calculateSpan(price, n, S):
 
 if __name__ == "__main__":
 
-    sym = "MSFT"
+    sym = "AAPL"
     x_data, y_data = return_data(sym)
     num = len(y_data)
     S = [None] * num
